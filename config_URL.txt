@@ -1,0 +1,22 @@
+﻿https://【后端地址】/sub?target=clash&url=【订阅链接】&insert=false&config=【远程配置】&emoji=true&list=false&udp=true&tfo=false&scv=true&fdn=false&sort=false
+ 
+【远程配置】
+https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2Fsubcon%2Fmaster%2Fconfig.ini
+ 
+【后端地址】
+api.nexconvert.com
+api.huacloud.xyz
+api.sublink.dev
+www.nameless13.com
+api.wcc.best
+  
+【订阅链接】
+:// → %3A%2F%2F
+/ → %2F
+? → %3F
+= → %3D
+| → %7C （多个链接用|分隔）
+ 
+【工具】
+https://nexconvert.com/
+https://www.urlencoder.org/
