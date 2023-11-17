@@ -6,17 +6,14 @@ https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2Fsubcon%2Fmaster%2Fconfig.ini
 【后端地址】
 api.nexconvert.com
 api.huacloud.xyz
+api.stentvessel.top
 api.sublink.dev
 www.nameless13.com
 api.wcc.best
   
-【订阅链接】
-:// → %3A%2F%2F
-/ → %2F
-? → %3F
-= → %3D
-| → %7C （多个链接用|分隔）
- 
-【工具】
-https://nexconvert.com/
+【订阅链接Encode】
 https://www.urlencoder.org/
+ 
+【订阅转换】
+https://nexconvert.com/
+
