@@ -13,7 +13,7 @@
 </br>https://github.com/SleepyHeeead/subconverter-config
 
 </br>URL Decode and Encode
-</br>https://www.urlencoder.org/
+</br>https://www.urlencoder.org/zh/
 
 </br>QuantumultX 不完全教程
 </br>https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
