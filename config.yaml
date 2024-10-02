@@ -21,14 +21,16 @@ proxy-groups:
   - name: IQ
     type: select
     proxies:
+      - Clusters
       - Proxies
       - TW
+      - SEA ex. SG     
       - SG
       - HK
-      - SEA ex. SG
   - name: YouTube
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -39,6 +41,7 @@ proxy-groups:
   - name: Netflix
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -73,6 +76,7 @@ proxy-groups:
   - name: Amazon
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -82,6 +86,7 @@ proxy-groups:
   - name: WeTV
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -92,14 +97,15 @@ proxy-groups:
   - name: Viki
     type: select
     proxies:
+      - US
       - JP
       - TW
       - HK
       - SG
-      - US
   - name: YOUKU
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -110,11 +116,13 @@ proxy-groups:
   - name: ABEMA
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
   - name: X
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -125,6 +133,7 @@ proxy-groups:
   - name: Telegram
     type: select
     proxies:
+      - Clusters
       - Proxies
       - JP
       - TW
@@ -132,7 +141,7 @@ proxy-groups:
       - SG
       - US
       - SEA ex. SG
-                             
+                         
 rule-providers:
   Unbreak:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Unbreak.list
