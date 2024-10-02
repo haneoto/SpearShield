@@ -1,5 +1,5 @@
 proxy-groups:
-  - name: Proxy
+  - name: Clusters
     type: select
     proxies:
       - JP
@@ -298,4 +298,4 @@ rules:
   - "RULE-SET,China,DIRECT"
   - "RULE-SET,Local,DIRECT"
   - "GEOIP,CN,DIRECT"
-  - "MATCH,Proxies"
+  - "MATCH,Clusters"
