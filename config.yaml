@@ -146,140 +146,140 @@ proxy-groups:
 rule-providers:
   Unbreak:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Unbreak.list
-    path: ./ruleset/Unbreak.list
+    path: ./ruleset/Area/Unbreak.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Direct:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Direct.list
-    path: ./ruleset/Direct.list
+    path: ./ruleset/Area/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   bilibili-HMT:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/bilibili-HMT.list
-    path: ./ruleset/bilibili-HMT.list
+    path: ./ruleset/Site/bilibili-HMT.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   IQ:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/IQ.list
-    path: ./ruleset/IQ.list
+    path: ./ruleset/Site/IQ.list
     behavior: classical
     interval: 86400
     format: text
     type: http   
   YouTube:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/YouTube.list
-    path: ./ruleset/YouTube.list
+    path: ./ruleset/Site/YouTube.list
     behavior: classical
     interval: 86400
     format: text
     type: http   
   Netflix:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/Netflix.list
-    path: ./ruleset/Netflix.list
+    path: ./ruleset/Site/Netflix.list
     behavior: classical
     interval: 86400
     format: text
     type: http     
   Amazon:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/Amazon.list
-    path: ./ruleset/Amazon.list
+    path: ./ruleset/Site/Amazon.list
     behavior: classical
     interval: 86400
     format: text
     type: http     
   WeTV:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/WeTV.list
-    path: ./ruleset/WeTV.list
+    path: ./ruleset/Site/WeTV.list
     behavior: classical
     interval: 86400
     format: text
     type: http 
   Viki:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/Viki.list
-    path: ./ruleset/Viki.list
+    path: ./ruleset/Site/Viki.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   YOUKU:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/YOUKU.list
-    path: ./ruleset/YOUKU.list
+    path: ./ruleset/Site/YOUKU.list
     behavior: classical
     interval: 86400
     format: text
     type: http 
   JP:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/JP.list
-    path: ./ruleset/JP.list
+    path: ./ruleset/Area/JP.list
     behavior: classical
     interval: 86400
     format: text
     type: http 
   TW:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/TW.list
-    path: ./ruleset/TW.list
+    path: ./ruleset/Area/TW.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   HK:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/HK.list
-    path: ./ruleset/HK.list
+    path: ./ruleset/Area/HK.list
     behavior: classical
     interval: 86400
     format: text
     type: http  
   SG:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/SG.list
-    path: ./ruleset/SG.list
+    path: ./ruleset/Area/SG.list
     behavior: classical
     interval: 86400
     format: text
     type: http  
   AbemaTV:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/AbemaTV.list
-    path: ./ruleset/AbemaTV.list
+    path: ./ruleset/Site/AbemaTV.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   X:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/X.list
-    path: ./ruleset/X.list
+    path: ./ruleset/Site/X.list
     behavior: classical
     interval: 86400
     format: text
     type: http                                   
   Telegram:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/Telegram.list
-    path: ./ruleset/Telegram.list
+    path: ./ruleset/Site/Telegram.list
     behavior: classical
     interval: 86400
     format: text
     type: http 
   Global:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Global.list
-    path: ./ruleset/Global.list
+    path: ./ruleset/Area/Global.list
     behavior: classical
     interval: 86400
     format: text
     type: http  
   China:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/China.list
-    path: ./ruleset/China.list
+    path: ./ruleset/Area/China.list
     behavior: classical
     interval: 86400
     format: text
     type: http 
   Local:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Local.list
-    path: ./ruleset/Local.list
+    path: ./ruleset/Area/Local.list
     behavior: classical
     interval: 86400
     format: text
