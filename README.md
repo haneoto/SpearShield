@@ -22,3 +22,6 @@
 </br>https://github.com/ddgksf2013/ddgksf2013
 </br>https://github.com/Orz-3/QuantumultX
 
+</br>Mihomo Party 覆写示例
+</br>https://github.com/mihomo-party-org/override-hub
+</br>https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
