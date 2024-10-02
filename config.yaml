@@ -21,12 +21,11 @@ proxy-groups:
   - name: IQ
     type: select
     proxies:
-      - Clusters
-      - Proxies
       - TW
       - SEA ex. SG     
       - SG
       - HK
+      - Proxies
   - name: YouTube
     type: select
     proxies:
@@ -36,8 +35,8 @@ proxy-groups:
       - TW
       - HK
       - SG
-      - US
       - SEA ex. SG
+      - US
   - name: Netflix
     type: select
     proxies:
@@ -47,8 +46,8 @@ proxy-groups:
       - TW
       - HK
       - SG
-      - US
       - SEA ex. SG
+      - US
   - name: JP
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
@@ -82,6 +81,7 @@ proxy-groups:
       - TW
       - HK
       - SG
+      - SEA ex. SG
       - US
   - name: WeTV
     type: select
@@ -92,8 +92,8 @@ proxy-groups:
       - TW
       - HK
       - SG
-      - US
       - SEA ex. SG
+      - US
   - name: Viki
     type: select
     proxies:
@@ -102,17 +102,18 @@ proxy-groups:
       - TW
       - HK
       - SG
+      - SEA ex. SG      
   - name: YOUKU
     type: select
     proxies:
       - Clusters
       - Proxies
-      - JP
       - TW
       - HK
       - SG
-      - US
       - SEA ex. SG
+      - JP            
+      - US
   - name: ABEMA
     type: select
     proxies:
@@ -128,8 +129,8 @@ proxy-groups:
       - TW
       - HK
       - SG
+      - SEA ex. SG      
       - US
-      - SEA ex. SG
   - name: Telegram
     type: select
     proxies:
@@ -139,8 +140,8 @@ proxy-groups:
       - TW
       - HK
       - SG
+      - SEA ex. SG      
       - US
-      - SEA ex. SG
                          
 rule-providers:
   Unbreak:
@@ -302,7 +303,7 @@ rules:
   - "RULE-SET,AbemaTV,ABEMA"
   - "RULE-SET,X,X"
   - "RULE-SET,Telegram,Telegram"
-  - "RULE-SET,Global,Proxies"
+  - "RULE-SET,Global,Clusters"
   - "RULE-SET,China,DIRECT"
   - "RULE-SET,Local,DIRECT"
   - "GEOIP,CN,DIRECT"
