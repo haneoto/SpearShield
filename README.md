@@ -2,7 +2,7 @@
 </br>https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
 
 </br>神机规则库
-</br>https://github.com/DivineEngine/Profiles/tree/master/Clash/RuleSet
+</br>https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset
 
 </br>blackmatrix7的库
 </br>https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
