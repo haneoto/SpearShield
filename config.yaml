@@ -73,18 +73,18 @@ proxy-groups:
     proxies:
       - Proxies
       - JP
-      - TW
-      - HK
-      - SG
       - US
+      - HK
+      - TW
+      - SG
   - name: WeTV
     type: select
     proxies:
       - Proxies
-      - JP
+      - SG
       - TW
       - HK
-      - SG
+      - JP
       - US
     include-all: true
     filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
@@ -95,7 +95,8 @@ proxy-groups:
       - JP
       - TW
       - HK
-      - SG      
+      - SG
+    include-all: true            
   - name: YOUKU
     type: select
     proxies:
@@ -112,6 +113,8 @@ proxy-groups:
     proxies:
       - Proxies
       - JP
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
   - name: X
     type: select
     proxies:
@@ -119,18 +122,20 @@ proxy-groups:
       - JP
       - TW
       - HK
-      - SG     
-      - US
+      - US     
+      - SG
+    include-all: true
   - name: Telegram
     type: select
     proxies:
       - Proxies
+      - SG
       - JP
       - TW
-      - HK
-      - SG     
+      - HK     
       - US
-                         
+    include-all: true
+
 rule-providers:
   Unbreak:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Unbreak.list
