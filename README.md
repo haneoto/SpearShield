@@ -7,6 +7,9 @@
 </br>blackmatrix7的库
 </br>https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
 
+</br>anti-ip-attribution
+</br>https://github.com/SunsetMkt/anti-ip-attribution
+
 </br>Subscription Converter
 </br>https://github.com/tindy2013/subconverter/blob/master/README-cn.md
 </br>https://nexconvert.com/
