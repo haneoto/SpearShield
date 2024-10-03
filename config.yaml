@@ -12,17 +12,13 @@ proxy-groups:
   - name: Proxies
     include-all: true
     type: select
-  - name: Anti-IP
-    type: select
-    proxies:    
-      - DIRECT
-      - Proxies         
   - name: bilibili.com
     type: select
     proxies:
       - DIRECT
       - TW
       - HK
+      - Proxies
   - name: IQ
     type: select
     proxies:
@@ -53,6 +49,11 @@ proxy-groups:
       - SG
       - SEA ex. SG
       - US
+  - name: Anti-IP
+    type: select
+    proxies:    
+      - DIRECT
+      - Proxies
   - name: JP
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
@@ -162,14 +163,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: text
-    type: http
-  Anti-IP:
-    url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Anti-IP.list
-    path: ./ruleset/Area/Anti-IP.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http    
+    type: http  
   bilibili-HMT:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/bilibili-HMT.list
     path: ./ruleset/Site/bilibili-HMT.list
@@ -198,6 +192,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http     
+  Anti-IP:
+    url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Anti-IP.list
+    path: ./ruleset/Area/Anti-IP.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
   Amazon:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/Amazon.list
     path: ./ruleset/Site/Amazon.list
@@ -300,11 +301,11 @@ rule-providers:
 rules:
   - "RULE-SET,Unbreak,DIRECT"
   - "RULE-SET,Direct,DIRECT"
-  - "RULE-SET,Anti-IP,Anti-IP"
   - "RULE-SET,bilibili-HMT,bilibili.com"
   - "RULE-SET,IQ,IQ"
   - "RULE-SET,YouTube,YouTube"
   - "RULE-SET,Netflix,Netflix" 
+  - "RULE-SET,Anti-IP,Anti-IP"
   - "RULE-SET,Amazon,Amazon"     
   - "RULE-SET,WeTV,WeTV" 
   - "RULE-SET,Viki,Viki" 
