@@ -1,53 +1,45 @@
 proxy-groups:
-  - name: Clusters
+  - name: Proxies
     type: select
     proxies:
       - JP
       - TW
       - HK
-      - US
       - SG
-      - SEA ex. SG     
-      - Proxies
-  - name: Proxies
+      - US
     include-all: true
-    type: select
   - name: bilibili.com
     type: select
     proxies:
       - DIRECT
       - TW
       - HK
-      - Proxies
+      - Anti-IP
   - name: IQ
     type: select
     proxies:
-      - TW
-      - SEA ex. SG     
+      - TW    
       - SG
       - HK
-      - Proxies
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
   - name: YouTube
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
       - SG
-      - SEA ex. SG
       - US
   - name: Netflix
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
       - SG
-      - SEA ex. SG
       - US
   - name: Anti-IP
     type: select
@@ -71,10 +63,6 @@ proxy-groups:
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
     type: select
-  - name: SEA ex. SG
-    include-all: true
-    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
-    type: select
   - name: US
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
@@ -82,25 +70,23 @@ proxy-groups:
   - name: Amazon
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
       - SG
-      - SEA ex. SG
       - US
   - name: WeTV
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
       - SG
-      - SEA ex. SG
       - US
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
   - name: Viki
     type: select
     proxies:
@@ -108,46 +94,40 @@ proxy-groups:
       - JP
       - TW
       - HK
-      - SG
-      - SEA ex. SG      
+      - SG      
   - name: YOUKU
     type: select
     proxies:
-      - Clusters
       - Proxies
       - TW
       - HK
       - SG
-      - SEA ex. SG
       - JP            
       - US
+    include-all: true
+    filter: (?i)越南|Vietnam|VN|泰国|Thailand|TH|印度尼西亚|Indonesia|ID|菲律宾|Philippines|PH|马来西亚|Malaysia|MY|文莱|Brunei|BN|柬埔寨|Kampuchea|KH|老挝|Laos|LA|缅甸|Burma|MM
   - name: ABEMA
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
   - name: X
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
-      - SG
-      - SEA ex. SG      
+      - SG     
       - US
   - name: Telegram
     type: select
     proxies:
-      - Clusters
       - Proxies
       - JP
       - TW
       - HK
-      - SG
-      - SEA ex. SG      
+      - SG     
       - US
                          
 rule-providers:
@@ -318,8 +298,8 @@ rules:
   - "RULE-SET,AbemaTV,ABEMA"
   - "RULE-SET,X,X"
   - "RULE-SET,Telegram,Telegram"
-  - "RULE-SET,Global,Clusters"
+  - "RULE-SET,Global,Proxies"
   - "RULE-SET,China,DIRECT"
   - "RULE-SET,Local,DIRECT"
   - "GEOIP,CN,DIRECT"
-  - "MATCH,Clusters"
+  - "MATCH,Proxies"
