@@ -13,8 +13,10 @@ proxy-groups:
     include-all: true
     type: select
   - name: Anti-IP
-    include-all: true
-    type: select    
+    type: select
+    proxies:    
+      - DIRECT
+      - Proxies         
   - name: bilibili.com
     type: select
     proxies:
