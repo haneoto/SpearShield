@@ -9,7 +9,6 @@ proxy-groups:
       - SG
       - SEA ex. SG     
       - Proxies
-    include-all: true
   - name: Proxies
     include-all: true
     type: select
@@ -55,6 +54,7 @@ proxy-groups:
     proxies:    
       - DIRECT
       - Proxies
+    include-all: true
   - name: JP
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
