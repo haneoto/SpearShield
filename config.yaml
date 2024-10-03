@@ -9,6 +9,7 @@ proxy-groups:
       - SG
       - SEA ex. SG     
       - Proxies
+    include-all: true
   - name: Proxies
     include-all: true
     type: select
