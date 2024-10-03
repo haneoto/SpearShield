@@ -12,6 +12,9 @@ proxy-groups:
   - name: Proxies
     include-all: true
     type: select
+  - name: Anti-IP
+    include-all: true
+    type: select    
   - name: bilibili.com
     type: select
     proxies:
@@ -158,6 +161,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Anti-IP:
+    url: https://raw.githubusercontent.com/haneoto/subcon/master/Area/Anti-IP.list
+    path: ./ruleset/Area/Anti-IP.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
   bilibili-HMT:
     url: https://raw.githubusercontent.com/haneoto/subcon/master/Site/bilibili-HMT.list
     path: ./ruleset/Site/bilibili-HMT.list
@@ -288,6 +298,7 @@ rule-providers:
 rules:
   - "RULE-SET,Unbreak,DIRECT"
   - "RULE-SET,Direct,DIRECT"
+  - "RULE-SET,Anti-IP,Anti-IP"
   - "RULE-SET,bilibili-HMT,bilibili.com"
   - "RULE-SET,IQ,IQ"
   - "RULE-SET,YouTube,YouTube"
