@@ -28,3 +28,6 @@
 </br>Mihomo Party 覆写示例
 </br>https://github.com/mihomo-party-org/override-hub
 </br>https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
+
+</br>虚空终端 Docs
+</br>https://wiki.metacubex.one/config/
