@@ -24,7 +24,6 @@
 </br>QuantumultX 配置
 </br>https://github.com/ddgksf2013/ddgksf2013
 </br>https://github.com/Orz-3/QuantumultX
-</br>https://github.com/Moli-X/Resources
 
 </br>Mihomo Party 覆写示例
 </br>https://github.com/mihomo-party-org/override-hub
