@@ -7,6 +7,9 @@
 </br>blackmatrix7规则库
 </br>https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
 
+</br>LM-Firefly规则库
+</br>https://github.com/LM-Firefly/Rules
+
 </br>anti-ip-attribution规则库
 </br>https://github.com/SunsetMkt/anti-ip-attribution
 
