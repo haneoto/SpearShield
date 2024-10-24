@@ -18,15 +18,18 @@
 </br>https://nexconvert.com/
 </br>https://github.com/SleepyHeeead/subconverter-config
 
-</br>QuantumultX 不完全教程
-</br>https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
-
-</br>QuantumultX 配置
-</br>https://github.com/ddgksf2013/ddgksf2013
-
 </br>Mihomo Party 覆写示例
 </br>https://github.com/mihomo-party-org/override-hub
 </br>https://github.com/ddgksf2013/Profile/blob/master/MihomoParty.yaml
 
 </br>虚空终端 Docs
 </br>https://wiki.metacubex.one/config/
+
+</br>QuantumultX 不完全教程
+</br>https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
+
+</br>QuantumultX 配置
+</br>https://github.com/ddgksf2013/ddgksf2013
+
+</br>可莉的 Loon 资源
+</br>https://github.com/luestr/ProxyResource/tree/main?tab=readme-ov-file#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8
