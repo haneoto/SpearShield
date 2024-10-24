@@ -34,3 +34,5 @@
 </br>可莉的 Loon 资源
 </br>https://github.com/luestr/ProxyResource/tree/main?tab=readme-ov-file#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8
 
+GetSomeFries组件库
+https://github.com/VirgilClyne/GetSomeFries
