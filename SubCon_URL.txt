@@ -1,11 +1,11 @@
 ﻿https://【后端地址】/sub?target=clash&url=【订阅链接】&insert=false&config=【远程配置】&emoji=true&list=false&udp=true&tfo=false&scv=true&fdn=false&sort=false
  
 【远程配置】
-https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2Fsubcon%2Fmaster%2Fconfig.ini
+https%3A%2F%2Fraw.githubusercontent.com%2Fhaneoto%2FSpearShield%2Fmaster%2FSubCon.ini
  
 【后端地址】
 api.nexconvert.com
-api.huacloud.xyz
+api-huacloud.dev
 api.stentvessel.top
 api.sublink.dev
 www.nameless13.com
