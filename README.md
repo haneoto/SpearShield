@@ -3,11 +3,11 @@
 神机规则库
 https://github.com/ConnersHua/RuleGo/tree/master/Surge/Ruleset
 
-ACL4SSR规则库
-https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
-
 blackmatrix7规则库
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
+
+ACL4SSR规则库
+https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
 
 SukkaW规则库
 https://github.com/SukkaW/Surge
