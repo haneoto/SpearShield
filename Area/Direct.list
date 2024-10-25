@@ -3,3 +3,4 @@ PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
 PROCESS-NAME,baidunetdiskhost.exe
 PROCESS-NAME,115chrome.exe
+DOMAIN,hcfy.ai
