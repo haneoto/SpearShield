@@ -13,6 +13,9 @@
 </br>anti-ip-attribution规则库
 </br>https://github.com/SunsetMkt/anti-ip-attribution
 
+</br>SukkaW规则库
+</br>https://github.com/SukkaW/Surge
+
 </br>Subscription Converter
 </br>https://github.com/tindy2013/subconverter/blob/master/README-cn.md
 </br>https://nexconvert.com/
